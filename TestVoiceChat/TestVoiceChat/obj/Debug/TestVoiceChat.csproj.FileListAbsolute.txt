@@ -1,0 +1,12 @@
+C:\Users\Rafal\source\repos\TestVoiceChat\TestVoiceChat\bin\Debug\TestVoiceChat.exe.config
+C:\Users\Rafal\source\repos\TestVoiceChat\TestVoiceChat\bin\Debug\TestVoiceChat.exe
+C:\Users\Rafal\source\repos\TestVoiceChat\TestVoiceChat\bin\Debug\TestVoiceChat.pdb
+C:\Users\Rafal\source\repos\TestVoiceChat\TestVoiceChat\bin\Debug\NAudio.dll
+C:\Users\Rafal\source\repos\TestVoiceChat\TestVoiceChat\obj\Debug\TestVoiceChat.csprojAssemblyReference.cache
+C:\Users\Rafal\source\repos\TestVoiceChat\TestVoiceChat\obj\Debug\TestVoiceChat.Form1.resources
+C:\Users\Rafal\source\repos\TestVoiceChat\TestVoiceChat\obj\Debug\TestVoiceChat.Properties.Resources.resources
+C:\Users\Rafal\source\repos\TestVoiceChat\TestVoiceChat\obj\Debug\TestVoiceChat.csproj.GenerateResource.cache
+C:\Users\Rafal\source\repos\TestVoiceChat\TestVoiceChat\obj\Debug\TestVoiceChat.csproj.CoreCompileInputs.cache
+C:\Users\Rafal\source\repos\TestVoiceChat\TestVoiceChat\obj\Debug\TestVoiceChat.csproj.CopyComplete
+C:\Users\Rafal\source\repos\TestVoiceChat\TestVoiceChat\obj\Debug\TestVoiceChat.exe
+C:\Users\Rafal\source\repos\TestVoiceChat\TestVoiceChat\obj\Debug\TestVoiceChat.pdb
