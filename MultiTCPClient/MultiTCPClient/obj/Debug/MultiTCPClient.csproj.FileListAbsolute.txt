@@ -1,0 +1,7 @@
+C:\Users\Rafal\source\repos\MultiTCPClient\MultiTCPClient\bin\Debug\MultiTCPClient.exe.config
+C:\Users\Rafal\source\repos\MultiTCPClient\MultiTCPClient\bin\Debug\MultiTCPClient.exe
+C:\Users\Rafal\source\repos\MultiTCPClient\MultiTCPClient\bin\Debug\MultiTCPClient.pdb
+C:\Users\Rafal\source\repos\MultiTCPClient\MultiTCPClient\obj\Debug\MultiTCPClient.csprojAssemblyReference.cache
+C:\Users\Rafal\source\repos\MultiTCPClient\MultiTCPClient\obj\Debug\MultiTCPClient.csproj.CoreCompileInputs.cache
+C:\Users\Rafal\source\repos\MultiTCPClient\MultiTCPClient\obj\Debug\MultiTCPClient.exe
+C:\Users\Rafal\source\repos\MultiTCPClient\MultiTCPClient\obj\Debug\MultiTCPClient.pdb
