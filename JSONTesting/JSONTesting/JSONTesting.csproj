@@ -49,6 +49,8 @@
     <Compile Include="Contact.cs" />
     <Compile Include="Contacts.cs" />
     <Compile Include="History.cs" />
+    <Compile Include="HistoryRecord.cs" />
+    <Compile Include="JsonHelp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
