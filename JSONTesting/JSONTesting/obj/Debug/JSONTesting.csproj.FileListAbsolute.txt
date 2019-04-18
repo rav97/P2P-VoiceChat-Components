@@ -1,0 +1,11 @@
+C:\Users\Rafal\source\repos\JSONTesting\JSONTesting\bin\Debug\JSONTesting.exe.config
+C:\Users\Rafal\source\repos\JSONTesting\JSONTesting\bin\Debug\JSONTesting.exe
+C:\Users\Rafal\source\repos\JSONTesting\JSONTesting\bin\Debug\JSONTesting.pdb
+C:\Users\Rafal\source\repos\JSONTesting\JSONTesting\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rafal\source\repos\JSONTesting\JSONTesting\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Rafal\source\repos\JSONTesting\JSONTesting\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rafal\source\repos\JSONTesting\JSONTesting\obj\Debug\JSONTesting.csprojAssemblyReference.cache
+C:\Users\Rafal\source\repos\JSONTesting\JSONTesting\obj\Debug\JSONTesting.csproj.CoreCompileInputs.cache
+C:\Users\Rafal\source\repos\JSONTesting\JSONTesting\obj\Debug\JSONTesting.csproj.CopyComplete
+C:\Users\Rafal\source\repos\JSONTesting\JSONTesting\obj\Debug\JSONTesting.exe
+C:\Users\Rafal\source\repos\JSONTesting\JSONTesting\obj\Debug\JSONTesting.pdb
