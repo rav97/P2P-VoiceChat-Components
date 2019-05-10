@@ -1,0 +1,7 @@
+C:\Users\Rafal\Desktop\PSSP\PSSP\bin\Debug\PSSP.exe.config
+C:\Users\Rafal\Desktop\PSSP\PSSP\bin\Debug\PSSP.exe
+C:\Users\Rafal\Desktop\PSSP\PSSP\bin\Debug\PSSP.pdb
+C:\Users\Rafal\Desktop\PSSP\PSSP\obj\Debug\PSSP.csprojAssemblyReference.cache
+C:\Users\Rafal\Desktop\PSSP\PSSP\obj\Debug\PSSP.csproj.CoreCompileInputs.cache
+C:\Users\Rafal\Desktop\PSSP\PSSP\obj\Debug\PSSP.exe
+C:\Users\Rafal\Desktop\PSSP\PSSP\obj\Debug\PSSP.pdb
