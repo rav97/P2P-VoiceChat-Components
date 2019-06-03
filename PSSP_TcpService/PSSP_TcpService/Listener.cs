@@ -11,6 +11,8 @@ namespace PSSP_TcpService
 {
     static class Listener
     {
+        static bool busy = false;
+
         public static void ServerSimulator(object stateInfo)
         {
             TcpListener server = new TcpListener(IPAddress.Any, 16000);
@@ -19,24 +21,43 @@ namespace PSSP_TcpService
             {
                 TcpClient client = server.AcceptTcpClient();
                 Console.WriteLine("Klient polaczony");
-                ThreadPool.QueueUserWorkItem(ClientHandler, client);
+                ThreadPool.QueueUserWorkItem(ClientHandler, new object[] { client, busy });
             }
         }
-        static void ClientHandler(Object client)
+        static void ClientHandler(object client)
         {
             //var param = client as object;
-            TcpClient cli = (TcpClient)client;
+            object[] args = client as object[]; 
+
+            TcpClient cli = (TcpClient)args[0];
+            bool busy = (bool)args[1];
+
             byte[] buffer = new byte[1024];
+
+            PSSP pssp = new PSSP();
 
             try
             {
                 while (true)
                 {
-                    int l = cli.GetStream().Read(buffer, 0, 1024);
-
-                    Console.WriteLine("Serwer otrzymal: " + new ASCIIEncoding().GetString(buffer).Substring(0, l));
-                    cli.GetStream().Write(buffer, 0, l);
-                    Array.Clear(buffer, 0, buffer.Length);
+                    if (!busy)
+                    {
+                        Listener.busy = true;
+                        
+                        int l = cli.GetStream().Read(buffer, 0, buffer.Length);
+                        pssp = new PSSP(PSSP.Type.ACK, Program.GetLocalIPAddress(), 66666);
+                        Console.WriteLine("Serwer otrzymal: " + new ASCIIEncoding().GetString(buffer).Substring(0, l));
+                        buffer = pssp.ToBytes();
+                        cli.GetStream().Write(buffer, 0, buffer.Length);
+                        Console.WriteLine("Serwer wyslal: {0}", pssp.ToString());
+                        Array.Clear(buffer, 0, buffer.Length);
+                    }
+                    else
+                    {
+                        pssp = new PSSP(PSSP.Type.BUSY);
+                        cli.GetStream().Write(pssp.ToBytes(), 0, 33);
+                        cli.Close();
+                    }
                 }
             }
             catch (Exception e)
